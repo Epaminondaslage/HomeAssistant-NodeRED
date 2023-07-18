@@ -58,7 +58,7 @@ Citando diretamente o site nodered.org – Um nó é o bloco de construção bá
     
 Os nós são acionados recebendo uma mensagem do nó anterior em um fluxo ou aguardando algum evento externo, como uma solicitação HTTP recebida, um cronômetro ou alteração de hardware GPIO. Eles processam essa mensagem ou evento e, em seguida, podem enviar uma mensagem para os próximos nós do fluxo. Um nó pode ter no máximo uma porta de entrada e quantas portas de saída forem necessárias.
 
-<img src="img/node1.jpg" alt="Descrição da Imagem" width="300" height="200">
+<img src="img/node01.jpg" alt="Node-RED no HA" width="400" height="300">
 
 Os nós podem ser pensados ​​como uma representação de algo acontecendo em uma casa inteligente. Por exemplo, existem nós “stoptimer” que acionarão um cronômetro com base na mensagem recebida e pararão esse cronômetro com base na mensagem recebida. Existem nós que monitoram eventos, seja de um serviço Home Assistant ou de um hardware em sua rede como um sensor de movimento, que será acionado com base em como foi configurado. Existem nós de serviço de chamada, que irão iniciar, parar ou alterar um serviço, como light.turn_on, light.turn_off e light.toggle. Estes são apenas alguns exemplos de quase inúmeros tipos de nós.
 
