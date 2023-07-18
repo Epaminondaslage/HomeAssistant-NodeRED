@@ -82,19 +82,28 @@ Abra o editor do Node-RED em seu navegador (normalmente, acessível ena própria
 
 Arraste um nó "State" da paleta à esquerda para o canvas e configure-o para monitorar o estado do sensor de movimento.
 Selecione a opção "Select a Home Assistant node" (Selecionar um nó do Home Assistant).
-Clique no ícone de lápis para configurar a entidade do Home Assistant.
-Escolha o dispositivo de sensor de movimento no Home Assistant e clique em "Add".
+
+<img src="img/node02b.png" alt="Node-RED no HA" width="200" height="300">
+
+zazazazazazazazazazazazazazaz
+
+<img src="img/node04a.png" alt="Node-RED no HA" width="200" height="300">
+ 
+Eaxaxaxaxaxaxaxaxaxaxaxaxaxaxax
+
+<img src="img/node04b.png" alt="Node-RED no HA" width="200" height="300">
+
+xxxxxxxxxxsxsxsxsxsxsxxs
+
+<img src="img/node04c.png" alt="Node-RED no HA" width="200" height="300">
+ 
+xxxxxxxxxxsxsxsxsxsxsxxs
+
+<img src="img/node04d.png" alt="Node-RED no HA" width="200" height="300">
+ 
+fhfhgffgffhgfhgfhgfhgfhgffhffhgfhfghfhf
+
 Feche a janela de configuração.
-
-Adicione um nó "Switch" da paleta e conecte-o ao nó "State". O nó "Switch" será usado para verificar o valor do estado do sensor de movimento.
-
-Configure o nó "Switch":
-
-
-Feche a janela de configuração.
-
-Conecte o nó "Switch" ao nó "State" que controla a luz inteligente.
-
 Salve o fluxo e clique em "Deploy" no canto superior direito para aplicar as alterações.
 
 <img src="img/node05.png" alt="Node-RED no HA" width="400" height="300">
