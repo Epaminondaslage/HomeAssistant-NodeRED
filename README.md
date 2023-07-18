@@ -18,7 +18,17 @@
 
 # Introdução
 
-colocar aqui a documentação
+## O que é Node-RED?
+
+O Node-RED é uma ferramenta de desenvolvimento gráfico que facilita a conexão entre dispositivos de hardware, APIs e serviços online. Foi originalmente desenvolvido pela IBM para uso interno, mas tornou-se de código aberto em 2016.
+
+Desde então, tem sido adotado pela indústria de automação como uma maneira fácil de criar aplicações IoT industriais que coletam, processam e compartilham dados através da internet. O Node-RED facilita o desenvolvimento de aplicativos IoT industriais de duas maneiras:
+
+* Primeiro, o Node-RED vem com um grande número de nós pré-construídos. Como desenvolvedor, você pode usar esses nós em seus aplicativos para executar facilmente tarefas complexas, como enviar dados usando o protocolo MQTT, o protocolo Modbus/TCP ou via e-mail. Existem até nós que permitem publicar dados em serviços online como Dropbox e Google Drive.
+
+Atualmente, existem inúmeros nós disponíveis para você usar em seus aplicativos IoT residenciais ou industriais e, graças ao trabalho incansável da comunidade de código aberto, esse número está crescendo constantemente.
+
+* Em segundo lugar, Node-RED é uma ferramenta de desenvolvimento gráfico. Cada nó em um aplicativo é colocado em uma tela e conectado a outros nós. Cada nó no aplicativo executa uma tarefa específica, como coleta de dados, processamento de dados ou envio de dados.
 
 
 ## Repositório Disponível  
