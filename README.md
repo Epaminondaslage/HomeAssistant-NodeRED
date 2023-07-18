@@ -26,10 +26,6 @@ O funcionamento do Node-RED é baseado na utilização de nós pré-construídos
 
 A grande vantagem do Node-RED é que, graças à comunidade de código aberto e aos contribuidores ativos, há uma vasta biblioteca de nós disponíveis para diversas finalidades. Isso permite que desenvolvedores tenham acesso a uma ampla gama de funcionalidades prontas para uso, acelerando o processo de desenvolvimento e simplificando a conexão entre dispositivos e serviços.
 
-* Primeiro, o Node-RED vem com um grande número de nós pré-construídos. Como desenvolvedor, você pode usar esses nós em seus aplicativos para executar facilmente tarefas complexas, como enviar dados usando o protocolo MQTT, o protocolo Modbus/TCP ou via e-mail. Existem até nós que permitem publicar dados em serviços online como Dropbox e Google Drive.
-
-* Em segundo lugar, Node-RED é uma ferramenta de desenvolvimento gráfico. Cada nó em um aplicativo é colocado em uma tela e conectado a outros nós. Cada nó no aplicativo executa uma tarefa específica, como coleta de dados, processamento de dados ou envio de dados.
-
 Aspectos técnicos do Node-RED:
 <ol> 
 <li>Arquitetura: O Node-RED é construído em cima do ambiente Node.js, que é uma plataforma de execução de JavaScript. Ele usa a biblioteca Node.js "Express" para fornecer um servidor HTTP que hospeda o editor gráfico do Node-RED e executa os fluxos criados pelos usuários.</li>
@@ -54,6 +50,17 @@ Aspectos técnicos do Node-RED:
 </ul>
 
 Esses aspectos técnicos mostram como o Node-RED é uma ferramenta poderosa para desenvolvimento de aplicações IoT e automação, oferecendo uma abordagem gráfica e intuitiva para conectar e orquestrar dispositivos e serviços de maneira eficiente.
+O que é um nó Node-RED?
+
+## O que é um Node?
+
+Citando diretamente o site nodered.org – Um nó é o bloco de construção básico de um fluxo.
+    
+Os nós são acionados recebendo uma mensagem do nó anterior em um fluxo ou aguardando algum evento externo, como uma solicitação HTTP recebida, um cronômetro ou alteração de hardware GPIO. Eles processam essa mensagem ou evento e, em seguida, podem enviar uma mensagem para os próximos nós do fluxo. Um nó pode ter no máximo uma porta de entrada e quantas portas de saída forem necessárias.
+
+<img src="img/node1.jpg" alt="Descrição da Imagem" width="300" height="200">
+
+Os nós podem ser pensados ​​como uma representação de algo acontecendo em uma casa inteligente. Por exemplo, existem nós “stoptimer” que acionarão um cronômetro com base na mensagem recebida e pararão esse cronômetro com base na mensagem recebida. Existem nós que monitoram eventos, seja de um serviço Home Assistant ou de um hardware em sua rede como um sensor de movimento, que será acionado com base em como foi configurado. Existem nós de serviço de chamada, que irão iniciar, parar ou alterar um serviço, como light.turn_on, light.turn_off e light.toggle. Estes são apenas alguns exemplos de quase inúmeros tipos de nós.
 
 
 ## Repositório Disponível  
