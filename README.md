@@ -31,26 +31,26 @@ A grande vantagem do Node-RED é que, graças à comunidade de código aberto e 
 * Em segundo lugar, Node-RED é uma ferramenta de desenvolvimento gráfico. Cada nó em um aplicativo é colocado em uma tela e conectado a outros nós. Cada nó no aplicativo executa uma tarefa específica, como coleta de dados, processamento de dados ou envio de dados.
 
 Aspectos técnicos do Node-RED:
-<ui> 
+<ol> 
 <li>Arquitetura: O Node-RED é construído em cima do ambiente Node.js, que é uma plataforma de execução de JavaScript. Ele usa a biblioteca Node.js "Express" para fornecer um servidor HTTP que hospeda o editor gráfico do Node-RED e executa os fluxos criados pelos usuários.</li>
 
-2. Editor gráfico: O ambiente de desenvolvimento do Node-RED é uma interface web que permite aos desenvolvedores criar e editar fluxos visualmente. Os nós pré-construídos são representados como blocos gráficos, e os desenvolvedores podem conectá-los arrastando e soltando conexões entre eles.
+<li>Editor gráfico: O ambiente de desenvolvimento do Node-RED é uma interface web que permite aos desenvolvedores criar e editar fluxos visualmente. Os nós pré-construídos são representados como blocos gráficos, e os desenvolvedores podem conectá-los arrastando e soltando conexões entre eles.</li>
 
-3. Flows (Fluxos): Um fluxo no Node-RED é uma sequência de nós conectados. Cada nó executa uma ação específica, como ler um dado de um sensor, processar informações, executar uma ação ou enviar dados para outro serviço. As mensagens (payloads) são passadas de um nó para outro através das conexões.
+<li>Flows (Fluxos): Um fluxo no Node-RED é uma sequência de nós conectados. Cada nó executa uma ação específica, como ler um dado de um sensor, processar informações, executar uma ação ou enviar dados para outro serviço. As mensagens (payloads) são passadas de um nó para outro através das conexões.</li>
 
-4. Nodes (Nós): Os nós são os componentes básicos de um fluxo. Existem diferentes tipos de nós que realizam diversas tarefas, e os desenvolvedores podem criar seus próprios nós personalizados, se necessário. Alguns exemplos de tipos de nós são: nós de entrada (recebem dados), nós de processamento (manipulam os dados) e nós de saída (enviam dados).
+<li>Nodes (Nós): Os nós são os componentes básicos de um fluxo. Existem diferentes tipos de nós que realizam diversas tarefas, e os desenvolvedores podem criar seus próprios nós personalizados, se necessário. Alguns exemplos de tipos de nós são: nós de entrada (recebem dados), nós de processamento (manipulam os dados) e nós de saída (enviam dados).</li>
 
-5. Biblioteca de nós: O Node-RED possui uma ampla biblioteca de nós pré-construídos disponíveis para uso. Isso inclui nós para integração com protocolos de comunicação, serviços web, bancos de dados, dispositivos IoT, entre outros. Os desenvolvedores podem instalar esses nós diretamente do gerenciador de pacotes do Node-RED ou criar seus próprios nós personalizados em JavaScript.
+<li>Biblioteca de nós: O Node-RED possui uma ampla biblioteca de nós pré-construídos disponíveis para uso. Isso inclui nós para integração com protocolos de comunicação, serviços web, bancos de dados, dispositivos IoT, entre outros. Os desenvolvedores podem instalar esses nós diretamente do gerenciador de pacotes do Node-RED ou criar seus próprios nós personalizados em JavaScript.</li>
 
-6. Comunicação entre nós: As mensagens, contendo dados (payloads) e metadados adicionais, são o mecanismo principal para a comunicação entre os nós. Cada nó pode processar a mensagem e decidir para onde enviá-la em seguida, permitindo fluxos de trabalho complexos e automatizados.
+<li>Comunicação entre nós: As mensagens, contendo dados (payloads) e metadados adicionais, são o mecanismo principal para a comunicação entre os nós. Cada nó pode processar a mensagem e decidir para onde enviá-la em seguida, permitindo fluxos de trabalho complexos e automatizados.</li>
 
-7. Integração com serviços online: O Node-RED oferece nós específicos para interagir com serviços populares, como MQTT (protocolo de mensagens para IoT), HTTP, TCP, bancos de dados, e-mail, serviços em nuvem, APIs de redes sociais, armazenamento em nuvem, entre outros.
+<li>Integração com serviços online: O Node-RED oferece nós específicos para interagir com serviços populares, como MQTT (protocolo de mensagens para IoT), HTTP, TCP, bancos de dados, e-mail, serviços em nuvem, APIs de redes sociais, armazenamento em nuvem, entre outros.</li>
 
-8. Extensibilidade: A capacidade de criar nós personalizados em JavaScript permite que os desenvolvedores estendam o Node-RED e adicionem suporte para novos dispositivos, protocolos ou serviços, tornando-o altamente flexível e adaptável a diferentes cenários de aplicação.
+<li>Extensibilidade: A capacidade de criar nós personalizados em JavaScript permite que os desenvolvedores estendam o Node-RED e adicionem suporte para novos dispositivos, protocolos ou serviços, tornando-o altamente flexível e adaptável a diferentes cenários de aplicação.</li>
 
-9. Segurança: O Node-RED oferece funcionalidades de autenticação e autorização para proteger o acesso ao editor gráfico e aos fluxos criados. Também é possível configurar conexões seguras com serviços externos, utilizando protocolos criptografados e autenticação.
+<li>Segurança: O Node-RED oferece funcionalidades de autenticação e autorização para proteger o acesso ao editor gráfico e aos fluxos criados. Também é possível configurar conexões seguras com serviços externos, utilizando protocolos criptografados e autenticação.</li>
 
-10. Implantação: Uma vez que o fluxo é criado e testado no ambiente de desenvolvimento, pode ser implantado em um ambiente de produção, onde os nós executarão suas tarefas de forma contínua, permitindo a automação efetiva e confiável de processos e sistemas.
+<li>Implantação: Uma vez que o fluxo é criado e testado no ambiente de desenvolvimento, pode ser implantado em um ambiente de produção, onde os nós executarão suas tarefas de forma contínua, permitindo a automação efetiva e confiável de processos e sistemas.</li>
 </ul>
 
 Esses aspectos técnicos mostram como o Node-RED é uma ferramenta poderosa para desenvolvimento de aplicações IoT e automação, oferecendo uma abordagem gráfica e intuitiva para conectar e orquestrar dispositivos e serviços de maneira eficiente.
