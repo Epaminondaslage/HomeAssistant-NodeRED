@@ -89,18 +89,17 @@ Feche a janela de configuração.
 Adicione um nó "Switch" da paleta e conecte-o ao nó "State". O nó "Switch" será usado para verificar o valor do estado do sensor de movimento.
 
 Configure o nó "Switch":
-No campo "Rules", digite msg.payload.state === "on". Isso verifica se o sensor de movimento está ativo.
-Adicione outro nó "State" da paleta e configure-o para controlar o estado da luz inteligente.
-Selecione a opção "Select a Home Assistant node".
-Clique no ícone de lápis para configurar a entidade do Home Assistant.
-Escolha o dispositivo de luz inteligente no Home Assistant e clique em "Add".
+
+
 Feche a janela de configuração.
 
 Conecte o nó "Switch" ao nó "State" que controla a luz inteligente.
 
 Salve o fluxo e clique em "Deploy" no canto superior direito para aplicar as alterações.
 
-Agora, quando o sensor de movimento for ativado (detecção de movimento), a luz inteligente será acionada automaticamente.
+<img src="img/node05.png" alt="Node-RED no HA" width="400" height="300">
+
+Agora, quando o sensor de movimento for ativado (detecção de movimento), a luz inteligente será acionada automaticamente por 60s e transcorrido este tempo desligará.
 
 ## Repositório Disponível  
 
