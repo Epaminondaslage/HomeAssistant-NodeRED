@@ -47,10 +47,9 @@ Aspectos técnicos do Node-RED:
 <li>Segurança: O Node-RED oferece funcionalidades de autenticação e autorização para proteger o acesso ao editor gráfico e aos fluxos criados. Também é possível configurar conexões seguras com serviços externos, utilizando protocolos criptografados e autenticação.</li>
 
 <li>Implantação: Uma vez que o fluxo é criado e testado no ambiente de desenvolvimento, pode ser implantado em um ambiente de produção, onde os nós executarão suas tarefas de forma contínua, permitindo a automação efetiva e confiável de processos e sistemas.</li>
-</ul>
+</ol>
 
 Esses aspectos técnicos mostram como o Node-RED é uma ferramenta poderosa para desenvolvimento de aplicações IoT e automação, oferecendo uma abordagem gráfica e intuitiva para conectar e orquestrar dispositivos e serviços de maneira eficiente.
-O que é um nó Node-RED?
 
 ## O que é um Node?
 
