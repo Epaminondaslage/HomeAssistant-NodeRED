@@ -5,20 +5,22 @@
 
 # Índice 
 
-* [Sites relacionados ao Home Assistant e Node-RED ](Sites-relacionados-ao-Home-Assistant-e-Node-RED)
 * [Introdução](#Introdução)
-* [Repositório Disponível](Repositório-Disponível)    
+* [Primeira automação com Node-RED](#-Primeira-automação-com-Node-RED)
+* [Repositório Disponível](Repositório-Disponível)
+* [Sites relacionados ao Home Assistant e Node-RED ](Sites-relacionados-ao-Home-Assistant-e-Node-RED) 
 * [Status do Projeto](Status-do-Projeto)
 
-# Sites relacionados ao Home Assistant e Node-RED
-
-* https://https://nodered.org/
-* https://https://github.com/hassio-addons/addon-node-red
-* 
 
 # Introdução
 
 ## O que é Node-RED?
+
+Citando diretamente o site nodered.org – Um nó é o bloco de construção básico de um fluxo.
+    
+Os nós são acionados recebendo uma mensagem do nó anterior em um fluxo ou aguardando algum evento externo, como uma solicitação HTTP recebida, um cronômetro ou alteração de hardware GPIO. Eles processam essa mensagem ou evento e, em seguida, podem enviar uma mensagem para os próximos nós do fluxo. Um nó pode ter no máximo uma porta de entrada e quantas portas de saída forem necessárias.
+
+<img src="img/node01.png" alt="Node-RED no HA" width="400" height="300">
 
 O Node-RED é uma ferramenta de desenvolvimento gráfico que facilita a conexão e automação de dispositivos de hardware, APIs e serviços online. Sua abordagem visual permite que desenvolvedores criem aplicações IoT (Internet das Coisas) industriais ou residenciais de maneira mais intuitiva e eficiente. Foi originalmente desenvolvido pela IBM para uso interno, mas tornou-se de código aberto em 2016.
 
@@ -51,21 +53,11 @@ Aspectos técnicos do Node-RED:
 
 Esses aspectos técnicos mostram como o Node-RED é uma ferramenta poderosa para desenvolvimento de aplicações IoT e automação, oferecendo uma abordagem gráfica e intuitiva para conectar e orquestrar dispositivos e serviços de maneira eficiente.
 
-## O que é um Node?
-
-Citando diretamente o site nodered.org – Um nó é o bloco de construção básico de um fluxo.
-    
-Os nós são acionados recebendo uma mensagem do nó anterior em um fluxo ou aguardando algum evento externo, como uma solicitação HTTP recebida, um cronômetro ou alteração de hardware GPIO. Eles processam essa mensagem ou evento e, em seguida, podem enviar uma mensagem para os próximos nós do fluxo. Um nó pode ter no máximo uma porta de entrada e quantas portas de saída forem necessárias.
-
-<img src="img/node01.png" alt="Node-RED no HA" width="400" height="300">
-
-Os nós podem ser pensados ​​como uma representação de algo acontecendo em uma casa inteligente. Por exemplo, existem nós “stoptimer” que acionarão um cronômetro com base na mensagem recebida e pararão esse cronômetro com base na mensagem recebida. Existem nós que monitoram eventos, seja de um serviço Home Assistant ou de um hardware em sua rede como um sensor de movimento, que será acionado com base em como foi configurado. Existem nós de serviço de chamada, que irão iniciar, parar ou alterar um serviço, como light.turn_on, light.turn_off e light.toggle. Estes são apenas alguns exemplos de quase inúmeros tipos de nós.
-
-## Primeira automação nom Node-RED
+# Primeira automação com Node-RED
 
 Vamos fazer um exemplo simples de automação usando o Node-RED e o Home Assistant. Vamos criar uma automação para acender uma luz conectada a um dispositivo inteligente (como uma lâmpada controlada por um interruptor via Wi-Fi- Sonoff) quando um sensor de movimento Tuya for ativado.
 
-Pré-requisitos:
+## Pré-requisitos:
 
     * O Node-RED e o Home Assistant configurados e em execução em sua rede.
     * Certifique-se de que o dispositivo de acionamento da luz (interruptor inteligente)  e o sensor de movimento estão integrados e funcionando corretamente no Home Assistant.
