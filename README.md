@@ -8,7 +8,6 @@
 * [Introdução](#Introdução)
 * [Primeira automação com Node-RED](#Primeira-automação-com-Node-RED)
 * [Repositório Disponível](#Repositório-Disponível)
-* [Sites relacionados ao Home Assistant e Node-RED ](#Sites-relacionados-ao-Home-Assistant-e-Node-RED) 
 * [Status do Projeto](#Status-do-Projeto)
 
 
