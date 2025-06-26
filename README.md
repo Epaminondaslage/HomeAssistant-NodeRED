@@ -74,22 +74,17 @@ Selecione a opção "Select a Home Assistant node" (Selecionar um nó do Home As
 <img src="img/node02b.png" alt="Node-RED no HA" width="200" height="300">
 
 
-
 <img src="img/node04a.png" alt="Node-RED no HA" width="200" height="300">
  
 
-
 <img src="img/node04b.png" alt="Node-RED no HA" width="200" height="300">
-
 
 
 <img src="img/node04c.png" alt="Node-RED no HA" width="200" height="300">
  
 
-
 <img src="img/node04d.png" alt="Node-RED no HA" width="200" height="300">
  
-
 
 Feche a janela de configuração.
 Salve o fluxo e clique em "Deploy" no canto superior direito para aplicar as alterações.
@@ -97,10 +92,6 @@ Salve o fluxo e clique em "Deploy" no canto superior direito para aplicar as alt
 <img src="img/node05.png" alt="Node-RED no HA" width="400" height="300">
 
 Agora, quando o sensor de movimento for ativado (detecção de movimento), a luz inteligente será acionada automaticamente por 60s e transcorrido este tempo desligará.
-
-## Repositório Disponível  
-
-* <a href="https://github.com/Epaminondaslage/xxxxxxxxxxxxxxxx">xxxxxxxxxxxxxxxxxxxxxxxxxx)</a> 
 
 # Status do Projeto
 
