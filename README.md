@@ -73,23 +73,23 @@ Selecione a opção "Select a Home Assistant node" (Selecionar um nó do Home As
 
 <img src="img/node02b.png" alt="Node-RED no HA" width="200" height="300">
 
-zazazazazazazazazazazazazazaz
+
 
 <img src="img/node04a.png" alt="Node-RED no HA" width="200" height="300">
  
-Eaxaxaxaxaxaxaxaxaxaxaxaxaxaxax
+
 
 <img src="img/node04b.png" alt="Node-RED no HA" width="200" height="300">
 
-xxxxxxxxxxsxsxsxsxsxsxxs
+
 
 <img src="img/node04c.png" alt="Node-RED no HA" width="200" height="300">
  
-xxxxxxxxxxsxsxsxsxsxsxxs
+
 
 <img src="img/node04d.png" alt="Node-RED no HA" width="200" height="300">
  
-fhfhgffgffhgfhgfhgfhgfhgffhffhgfhfghfhf
+
 
 Feche a janela de configuração.
 Salve o fluxo e clique em "Deploy" no canto superior direito para aplicar as alterações.
